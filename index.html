@@ -10,6 +10,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" href="global.css">
 <script src="https://kit.fontawesome.com/8458a91e9c.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
 <style>
     @media screen and (max-width: 1000px) {
     .flex-container{
@@ -25,7 +28,7 @@
 }
 </style>
 </head>
-<body>
+<body style="background-color:#FFF5CB ;">
   <!-- Telefon Yönlendirme Butonu -->
   <a href="tel:+905378247386" style="border:0" title="Arama Yönlendirme">
     <div class="whatsappalt hvr-push">
@@ -37,10 +40,16 @@
         <!-- NAVBAR-->
         <nav class="navbar navbar-expand-lg container-fluid" style="background-color:#FFF5CB ; ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img style="height: 100px; width: 100px;" src="./img/HG.png" alt="ResizePixel logo" class="logo-small d-none d-sm-inline" ></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" href="#"><img style="height: 150px; width: 150px;" src="./img/HÜSEY.png" alt="ResizePixel logo" class="logo-small d-sm-inline" ></a>
+                <div class="dropdown">
+                  <span>Menü</span>
+                  <div class="dropdown-content">
+                  <p><a href="#anasayfa">Anasayfa</a></p>
+                  <p><a href="#ürünler">Ürünler</a></p>
+                  <p><a href="#hakkımda">Hakkımda</a></p>
+                  <p><a href="#iletisim">İletisim</a></p>
+                  </div>
+                </div>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">

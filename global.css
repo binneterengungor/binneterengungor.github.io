@@ -1,5 +1,5 @@
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 @media screen and (max-width: 1024) {
     .flex-container{
@@ -129,6 +129,10 @@ justify-items: flex-end;
     text-align: start;
 }
 
+.dropdown{
+    visibility: hidden;
+}
+
 /* Tablet */
 @media only screen and (max-width:992px){
 .flex-container{
@@ -145,14 +149,59 @@ justify-items: flex-end;
     width: 350px;
 }
 .card{
-  margin-left: 3rem;  
+  margin-left: 3rem; 
+   
 }
 .whatsappalt{
-    bottom: 35%;
+    bottom: 2%;
 }
 .flex-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
+.card{
+    margin-right: 3rem;
 }
+
+.dropdown{
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown{
+    visibility: visible;
+}
+
+.dropdown-content{
+    visibility: visible;
+}
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+    margin-right: 2.5rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF5CB;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: 5;
+  }
+
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
