@@ -200,6 +200,10 @@ a {
     left: 5;
   }
 
+  .dropbtn{
+    border: none;
+    background-color: #FFF5CB;
+  }
   
   
   .dropdown:hover .dropdown-content {
