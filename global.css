@@ -1,0 +1,158 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 1024) {
+    .flex-container{
+        display: block;
+        flex-direction: column;
+        margin-left: 0.25rem;
+    }
+    .card{
+        display: block;
+        flex-direction: column;
+    }
+}
+
+#navbarNav {
+text-align: right;
+justify-items: flex-end;
+}
+
+.main{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navbar{
+    color: #FFF5CB;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+} 
+.card{
+    margin: 0.25rem;
+}
+
+.bg-light{
+    --bs-bg-opacity: 0;
+}
+
+.baslik{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.hakkımdabas{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+#iletisim{
+    background-color: #FFF5CB;
+    width: 100%;
+    height: auto;
+    text-decoration-color: white;
+}
+
+.col{
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.img1{
+    width: 80px;
+    height: 80px;
+    margin-top: 2.2rem;
+}
+
+.mail{
+    color: black;
+}
+
+.whatsapp{
+    color: black;
+}
+
+.whatsapp1{
+    color: black;
+    margin-top: 2.2rem;
+}
+
+.a{
+    width: 150px;
+    height: 150px;
+}
+
+
+.whatsappalt{
+    position: fixed;
+    bottom: 2%;
+    width: 60px;
+    height: 60px;
+    background: #41cf7e;
+    right: 2%;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+.hvr-push{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    z-index: +1;
+}
+
+.foto{
+    margin-top: 2.5rem;
+    width: 400px;
+    height: 620px;
+}
+
+.container-fluid{
+    color: #FFF5CB;
+}
+
+.body{
+    background-color: #FFFFF0;
+}
+.p{
+    text-align: start;
+}
+
+/* Tablet */
+@media only screen and (max-width:992px){
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: white;
+}
+}
+
+/* Telefon */
+@media only screen and (max-width:768px){
+.foto{
+    width: 350px;
+}
+.card{
+  margin-left: 3rem;  
+}
+.whatsappalt{
+    bottom: 35%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+}
